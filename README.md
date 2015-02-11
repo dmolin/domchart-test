@@ -1,8 +1,12 @@
-[![ScreenShot](https://github.com/dmolin/frontend-test/blob/master/README/cover.jpg)](http://www.davidemolin.com/labs/mmtest)
+[![ScreenShot](https://github.com/dmolin/domchart-test/blob/master/README/cover.jpg)](http://www.davidemolin.com/labs/mmtest)
+
+A very simple test on how to use DOM elements to create a chart.
+
+When launched, 5 companies are randomly created.
 
 ##Implementation details:
 
-- The widget is mostly "responsive". It adapts to the change in size of its container and resizes the graph accordingly, to avoid too much clutter on small screens. It's not thoroughly tested on mobile devices, but it should 'mostly' work
+- The widget is "responsive". It adapts to the change in size of its container and resizes the graph accordingly, to avoid too much clutter on small screens. It's not thoroughly tested on mobile devices, but it should 'mostly' work
 
 - Circles overlapping has been taken into consideration. Higher grossing companies are always drawn before smaller ones in the DOM, to avoid hiding smaller companies placed in the same chart area.
 
@@ -34,7 +38,8 @@ A `Watch` task will also run, watching for changes in the code (and a LiveReload
 
 Just open a browser on **[http://localhost:8000](http://localhost:8000)** to see the page.
 
-Alternatively, you can find this code live (but minified for production deployment) at this address: [here](http://www.davidemolin.com/labs/mmtest)
+The code is live (but minified for production deployment) at this address: [here](http://www.davidemolin.com/labs/mmtest)
+A non-minified/development version can be seen at this address: [here](http://www.davidemolin.com/tests/graph)
 
 ##Do I really need Angular to do this?
 

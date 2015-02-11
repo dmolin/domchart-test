@@ -1,0 +1,40 @@
+{
+  "name": "davidemolin-mergermarket-angular",
+  "version": "0.0.1",
+  "description": "Davide Molin - MergerMarket test - AngularJS version",
+  "author": "Davide Alberto Molin <@davidemolin> (http://www.davidemolin.com)",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "lodash": "*",
+    "grunt-cli": "~0.1.13",
+    "grunt": "~0.4.4",
+    "grunt-contrib-clean": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-contrib-jshint": "*",
+    "grunt-contrib-compress": "*",
+    "grunt-contrib-cssmin": "*",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-contrib-connect": "~0.9.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-angular-templates": "*",
+    "grunt-template": "*",
+    "grunt-usemin": "*",
+    "glob": "*",
+    "glob-all":"*",
+    "karma": "~0.12.x",
+    "grunt-karma": "~0.10.x",
+    "karma-jasmine":"~0.3.5",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma-coverage": "~0.2.7",
+    "flightplan": "~0.3.1"
+  },
+  "engines": {
+    "node": ">=0.10.20"
+  },
+  "scripts": {
+    "test" : "grunt test"
+  }
+}

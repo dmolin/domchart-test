@@ -1,0 +1,25 @@
+<section class="busviz">
+    <div class="busviz-visual">
+        <span class="axis-label label-vert">revenue</span>
+        <span class="axis-label label-horz">incorporation date</span>
+
+        <div ng-repeat="comp in companies.items"
+            ng-style="comp.style"
+            class="busviz-node"
+            data-id="{{comp.company.id}}"
+            data-revenue="{{comp.company.revenue}}"
+            data-valuation="{{comp.company.valuation}}"
+            data-incorporation-date="{{comp.company.incorporationYear}}"></div>
+
+    </div>
+
+    <section class="busviz-controls">
+        <ul class="flatlist cf">
+            <li ng-repeat="sec in bizs.sectors", class="flatlist-item" >
+                <i class="cat" style="background-color: {{sec.color}}" />
+                <span>{{sec.name}}</span>
+            </li>
+        </ul>
+
+    </section>
+</section>

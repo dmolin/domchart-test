@@ -1,0 +1,35 @@
+.btn {
+    border-radius: 6px;
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #AAA;
+    color: #fff;
+    font-size: 1em;
+    }
+    .btn:hover,
+    .btn:active,
+    .btn:visited {
+        text-decoration: none;
+    }
+    @media screen and (min-width: 640px) {
+        .btn {
+            padding: 1em 2em;
+        }
+    }
+
+.btn-add {
+    background-color: #3f5a77;
+    border: 1px solid #3f5a77;
+    }
+    .btn-add:hover {
+        background-color: #517499;
+    }
+
+.btn-upd {
+    background-color: #ef705f;
+    border: 1px solid #ef705f;
+    }
+    .btn-upd:hover {
+        background-color: #ff796b;
+    }
+
